@@ -1,0 +1,425 @@
+/* ==========================================================================
+	Base styles: opinionated defaults
+   ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Noticia+Text:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@font-face { 
+	font-family: "HelveticaCond"; 
+	src: url('../fonts/Helvetica-Condensed-Bold.otf'); 
+} 
+@font-face { 
+	font-family: "HelveticaCond"; 
+	font-weight: bold; 
+	src: url('../fonts/Helvetica-Condensed-Bold.otf'); 
+}
+body{
+    font-family: "HelveticaCond", "Helvetica Neue Light", "Helvetica Neue";
+    background: #F2F2F2;
+    overflow-x: hidden;
+    padding: 8px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+a{
+	transition: all 0.5s;
+}
+a:hover{
+    text-decoration: none;
+    outline: 0px;
+}
+a:focus{
+	outline: 0px;
+}
+.padding-off{
+	padding: 0px;
+}
+.padding-left-off{
+	padding-left: 0px;
+}
+.padding-right-off{
+	padding-right: 0px;
+}
+.margin-t10{
+	margin-top: 10px;
+}
+.margin-t15{
+	margin-top: 15px;
+}
+.margin-t20{
+	margin-top: 20px;
+}
+.margin-t25{
+	margin-top: 25px;
+}
+.margin-t30{
+	margin-top: 30px;
+}
+/*----------------------------
+    Headers Styles Start 
+-----------------------------*/
+.header-top{
+	background-color: #e46c0a;
+	border-radius: 0px!important;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  margin-left: -45px;
+}
+.navbar-bootsnipp .navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Search Form Styles*/
+#imaginary_container{
+    margin-top:0.6%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  margin-left: 0;
+}
+.navbar {
+  margin-bottom: 8px;
+}
+.navbar-nav {
+  margin: 14px 0 0;
+}
+.navbar-bootsnipp .navbar-nav > li > a {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.register-panel > ul{
+	float: right;
+	margin-top: 8px;
+}
+.register-panel > ul > li{
+	list-style: none;
+	padding: 10px;
+}
+.register-panel > ul > li > a{
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*----------------------------
+    Headers Styles End 
+-----------------------------*/
+
+
+/*----------------------------
+    Top Ten Styles Start
+-----------------------------*/
+.BodyWrap{
+
+}
+.body-area{
+
+}
+.top-chart-area{
+
+}
+.topchart-head a{
+	text-align: center;
+	padding: 2% 0%;
+	color: #e46c0a;
+	background: #FFFFFF;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+
+}
+
+.topchart-head i{
+	color: #C1C0B9;
+}
+.list-group a{
+	text-decoration: none;
+	color:#333;
+	display:block;
+}
+.list-group-item{
+	border-left: 0px !important;
+	border-right: 0px !important;
+	background: #F6F6F6;
+	padding: 15px 0px;
+}
+.tab-content.margin-t10 {
+ 	background: white none repeat scroll 0 0;
+	padding: 15px 2px 20px 5px;
+}
+.list-group-item:first-child{
+	border-radius: 0px!important;
+}
+.img-center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.nav.nav-tabs {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 4px;
+  border-bottom: 0px !important;
+}
+.nav.nav-tabs > li > a{
+	padding: 5px 8px;
+	color: #f6ad7d;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	border: 0px;
+}
+.nav.nav-tabs > li.active > a {
+	color: white !important;
+	border: 0px !important;
+	border-bottom: 0px solid #fff !important;
+}
+.nav.nav-tabs > li.active > a:hover{
+	color: white;
+}
+.nav > li > a{
+	padding: 5px 6px!important;
+} 
+.nav-tabs > li.active > a{
+	border:1px solid #f6ad7d!important;
+	border-bottom: 1px solid #fff !important;
+	background: #E46C0A;
+	border-radius: 0px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: #555;
+	cursor: default;
+	background-color: #E46C0A;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+.nav-tabs{
+	border-bottom:1px solid #f6ad7d!important;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #E46C0A;
+	border-radius: 0px;
+}
+.nav.nav-tabs > li > a:hover, .nav.nav-tabs > li > a:focus{
+	color: white;
+}
+.top-10-nav > li > a{
+	padding: 5px 10.258px !important;
+}
+.scroll{
+	overflow-y: scroll;
+	height:500px;
+}
+.label{
+	float: right;
+	font-size: 8px;
+	background: transparent;
+	color: #a5a3a2;
+}
+.list-text{
+	font-size: 11px;
+	color: #bcbbba;
+}
+.list-image{
+	float:left;
+}
+.list-image img{
+	width:30px;
+	height: 30px;
+	display:inline-block;
+	margin-right:2px;
+}
+.list-item-no{
+	float: left;
+	padding: 7px;
+}
+.test{
+	padding: 0px 20px;
+}
+/*
+========Album Songs Artist Content Section========
+*/
+.top-list{
+	width: 100%;
+	display: inline-block;
+}
+.featured-tab .tab-content{
+	background: none;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.top-list .featured-top{
+	padding: 4px !important;
+	float:left;
+	width:25%; 
+}
+.top-tob .featured-tab > li{
+
+}
+.categories-sub-tab > li > a{
+	padding: 5px 43.48px !important;
+}
+.featured-item {
+  background: white none repeat scroll 0 0;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.item{
+	padding: 5px;
+} 
+.item:hover .item-details h3{
+	color: #E57A21; 
+} 
+.featured-tab .cover-photo img{
+	max-width: 100%;
+	min-height: 140px;
+	max-height: 140px;
+}
+.featured-tab .item-details h3{
+	color: #213139;
+	font-size: 16px;
+	margin: 0px;
+} 
+.featured-tab .item-details p{
+	color: #A8A098;
+	font-size: 11px;
+	margin-bottom: 0px;
+} 
+.featured-tab .item-details span{
+	color: #E57A21;
+}
+.item-titile{
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+.release-year{
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	position: absolute;
+	bottom: 80px;
+	left: 30px;
+	display: block;
+}
+/*see more button on featured album songs singer part*/
+.seemore{
+	float: right;
+display: inline-block;
+width: 100%;
+text-align: center;
+padding-top: 2px;
+padding-bottom: 2px;
+background-color: #e46c0a;
+color: #fff;
+margin-top: 5px;
+}
+/*
+======= more album page design=======
+*/
+.morealbum a{
+	display: block;
+}
+.album_head{
+	width: 100%;
+	display: inline-block;
+	padding: 0.5%;
+}
+.album_type span{
+color: orange;
+font-size: 18px;
+text-transform: uppercase;
+}
+.album_tabs{
+
+}
+
+/*
+========Feedback Message Section========
+*/
+.feedback-tab > li > a{
+	padding: 5px 53.5px !important;
+}
+.brand-post{
+	background: white;
+	padding: 10px;
+}
+.post-author{
+
+}
+.post-author img{
+	max-width: 50px;
+	min-height: 50px;
+ 	display: inline-block;
+	margin-top: -50px; 
+}
+.brand-name{
+	display: inline-block;
+	padding-left: 10px;
+}
+.brand-name h5{
+	margin: 0px;
+	color: #E86C0A;
+}
+.brand-name p{
+	color: #a8a098;
+	margin-bottom: 0px;
+}
+.brand-name > span {
+  font-size: 12px;
+  color: #a8a098;
+}
+.follow-btn{
+	color: green;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.post-about{}
+.post-about p{
+	color: #a8a098;
+	margin-bottom: 0px;
+}
+.post-picture img{
+	max-width: 100%;
+	min-height: 160px;
+}
+.featured-main-left img{
+	max-width: 100%;
+	min-height: 80px;
+}
+.featured-main-right img{
+	max-width: 100%;
+	min-height: 80px;
+}
+.follower-feedback{
+	display: inline-block;
+	margin-top: 10px;
+}
+.follower-feedback h5{
+	margin: 0px;
+}

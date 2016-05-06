@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+@media only screen and (max-width: 980px) {
+    /* Style adjustments for viewports that meet the condition */
+    
+    /* ==========================================================================
+      Page: Profile
+    ========================================================================== */
+   
+  
+}
+
+@media only screen and (max-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+   .categories-sub-tab li a{
+
+   }
+}
+@media only screen and (max-width: 767px) {
+    /* Style adjustments for viewports that meet the condition */
+    .categories-sub-tab li a{
+
+   }
+   
+}  
+@media only screen and (max-width: 640px) {
+    /* Style adjustments for viewports that meet the condition */
+    .categories-sub-tab li a{
+
+   }
+}
+@media only screen and (max-width: 480px) {
+    /* Style adjustments for viewports that meet the condition */
+   .categories-sub-tab li a{
+
+   }
+
+}
+@media only screen and (max-width: 442px) {
+  .categories-sub-tab li a{
+
+   }
+}
+@media only screen and (max-width: 360px) {
+    /* Style adjustments for viewports that meet the condition */
+    .categories-sub-tab li a{
+
+   }
+}
+@media only screen and (max-width: 320px) {
+    /* Style adjustments for viewports that meet the condition */
+    
+    .categories-sub-tab li a{
+      padding: 3px 17px !important;
+   }
+    
+}
+
